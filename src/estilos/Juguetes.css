@@ -1,0 +1,34 @@
+.juguetes {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.galeria {
+  padding: 5px;
+  background-color: black;
+}
+.mprod {
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+.baneprod {
+  background-color: #4c2c69;
+  border: 1px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.catprod{
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

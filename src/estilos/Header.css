@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Agu+Display&display=swap");
+.caja {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ee6055;
+  width: 100%;
+  height: 120px;
+  padding: 5px;
+  border-style: solid;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "a a a im im d e f"
+    "a1 b1 c1 im im d1 e1 f1";
+  align-items: center;
+  align-content: center;
+}
+.item {
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  list-style-type: none;
+  transition: all 0.3s ease;
+  font-size: 20px;;
+  font-weight: bold;
+}
+.item:hover {
+  background-color: #cacf85;
+}
+.custom-link {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.1s ease;
+  font-size: 15px;
+}
+.custom-link:hover {
+  color: #440d0f;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nombre {
+  grid-area: a;
+  font-family: "Agu Display", serif;
+  font-size: 2em; /* Tamaño de fuente */
+  color: #4c2c69; /* Color del texto */
+  text-shadow: 4px 4px 25px rgba(252, 255, 83, 0.874); /* Sombra de texto */
+  text-transform: uppercase; /* Todo en mayúsculas */
+  padding: 1px;
+  padding-left: 27px;
+  margin: 0px;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 100px;
+}
+.catalogo {
+  grid-area: a1;
+}
+
+.ofertas {
+  grid-area: b1;
+}
+.carrito{
+  grid-area: c1;
+}
+.inicio {
+  grid-area: im;
+  padding: 0px;
+  border-radius: 100px;
+  margin-top: -30px;
+}
+.logo-image {
+  width: 200px;
+  border-radius: 100px;
+}
+.logo-image:hover {
+  width: 210px;
+  opacity: 0.9;
+}
+.sobrenosotros {
+  grid-area: d1;
+}
+.contactos {
+  grid-area: e1;
+}
+.faq {
+  grid-area: f1;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+@media screen and (max-width: 768px) {
+  .nombre {
+    font-size: 0.85em; /* Tamaño de fuente */
+  }
+  .inicio {
+    margin-top: 10px;
+  }
+  .logo-image {
+    width: 100px;
+    border-radius: 100px;
+  }
+  .logo-image:hover {
+    width: 120px;
+    opacity: 0.9;
+  }
+}

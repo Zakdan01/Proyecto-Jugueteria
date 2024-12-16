@@ -1,0 +1,32 @@
+.produs {
+  border: 3px solid #000000;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.producto-imagen {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.producto-nombre {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+.producto-precio {
+  color: #555;
+}
+.producto-boton {
+  background-color: #5eef8c;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.producto-boton:hover {
+  background-color: #5eef8c;
+  border: 1px solid black;
+}

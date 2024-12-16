@@ -1,0 +1,12 @@
+.nosotros{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 6px;
+}
+.palabr{
+    margin: 35px;
+    margin-top: -10px;
+}

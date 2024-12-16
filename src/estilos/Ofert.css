@@ -1,0 +1,62 @@
+.ofer {
+  width: 96%;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+.Bann {
+  width: 100%;
+  height: 325px;
+  margin: 0px auto;
+  background-color: #440d0f;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  padding: 0px;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.figura{
+  padding: 5px;
+}
+.Bann .figura img {
+  width: 100%;
+  height: 250px;
+}
+.titulopf-wrapper {
+  position: relative;
+  width: 100%;
+  height: 75px; 
+  overflow: hidden; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.Bann .titulopf {
+  display: inline-block;
+  white-space: nowrap;
+  animation: slide 25s linear infinite;
+  font-size: 30px;
+  color: white;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(-65%);
+  }
+  50% {
+    transform: translateX(65%);
+  }
+  100% {
+    transform: translateX(-65%);
+  }
+}
+.mprod{
+  color: black;
+}

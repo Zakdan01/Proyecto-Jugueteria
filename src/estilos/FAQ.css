@@ -1,0 +1,26 @@
+
+.Faq{
+    margin: 60px 15px 15px 20px;
+    width: 95%;
+    background-color: #440D0F;
+    padding: 30px;
+}
+.Preg{
+    background-color: #4C2C69;
+    color: white;
+    padding: 5px;
+}
+.pregun{
+    width: 100%;
+}
+.conta{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.direcciones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.dir{
+    margin: 15px;
+}
